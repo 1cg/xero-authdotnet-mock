@@ -4,7 +4,7 @@ get '/' do
 """
 <html>
   <body>
-    <script type="text/javascript">
+    <script type='text/javascript'>
       window.location='http://www.google.com';
     </script>
   </body>
