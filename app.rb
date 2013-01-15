@@ -1,6 +1,14 @@
 require 'sinatra'
 
 get '/r' do 
+  handle_redirect
+end
+
+post '/r' do 
+  handle_redirect
+end
+
+def handle_redirect
   redirect = params[:url]
   if redirect
     redirect = URI.decode(redirect)
