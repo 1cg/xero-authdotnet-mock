@@ -1,5 +1,13 @@
 require 'sinatra'
 
 get '/' do 
-  "Hello Xero!"
+"""
+<html>
+  <body>
+    <script type="text/javascript">
+      window.location='http://www.google.com';
+    </script>
+  </body>
+</html>
+"""
 end
